@@ -30,8 +30,8 @@ textarea {
   justify-content: flex-end;
   align-items: center;
   line-height: 100%;
-  border-top: 0.5px solid gray;
-  border-bottom: 0.5px solid gray;
+  border-top: 1px solid gray;
+  /* border-bottom: 1px solid gray; */
 }
 
 .time-row {
@@ -39,9 +39,31 @@ textarea {
   margin: 0px;
 }
 
+
 .right-row {
   background-color: #06AED5;
   border-radius: 0 15px 15px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.middle-row {
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.text-row {
+  line-height: 100%;
+  padding-top: 30px;
+  border: none;
+  outline: none;
+}
+
+.last-left-row {
+  border-bottom: 1px solid gray;
 }
 
 .description {
