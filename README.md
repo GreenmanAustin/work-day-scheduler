@@ -13,16 +13,16 @@
 
   ## Usage
 
-  This application has been deployed.  To use this application, simply click on the following link: <a href="https://drive.google.com/file/d/1-nJ3OfFyqdNksvq3Jh9mKtYtkpZh8817/view?usp=sharing">Deployed Application</a>
+  This application has been deployed.  To use this application, simply click on the following link: <a href="https://greenmanaustin.github.io/work-day-scheduler/">Deployed Application</a>
 
   ## Appearance
 
 <p align="left" width="100%">
-<img src="assets/screenshots/screenshot1.png" width="100%" align="top"> 
+<img src="./assets/screenshots/screenshot1.png" width="100%" align="top"> 
 </p>
 
 <p align="left" width="100%">
-<img src="assets/screenshots/screenshot2.png" width="100%" align="top"> 
+<img src="./assets/screenshots/screenshot2.png" width="100%" align="top"> 
 </p>
 
   ## Contributing
