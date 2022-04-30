@@ -134,6 +134,4 @@ $("#schedule-container").on("click", "#rightrow", function () {
 setInterval(function () {
     $("#schedule-container").empty();
     renderPage();
-
-    console.log("yo");
 }, 600000);
