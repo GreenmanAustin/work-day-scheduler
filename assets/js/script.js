@@ -126,12 +126,14 @@ $("#schedule-container").on("click", "#rightrow", function () {
         .find("[data-timerow='" + dataRow + "']")
         .text();
     schedule[row] = scheduleText;
-    console.log(schedule);
     localStorage.setItem("schedule", JSON.stringify(schedule));
 
-
-
-
-
-
 })
+
+// refreshes page every 10 minutes
+setInterval(function () {
+    $("#schedule-container").empty();
+    renderPage();
+
+    console.log("yo");
+}, 600000);
